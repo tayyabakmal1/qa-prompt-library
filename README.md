@@ -26,10 +26,19 @@ This library provides ready-to-use prompts for QA professionals to leverage AI t
 - Exploratory testing guidance
 - Release quality assessment
 
+### Mobile Testing
+- **Test Scenarios**: Mobile-specific test scenarios (app lifecycle, permissions, gestures, network)
+- **Automation Prompts**: Appium test script generation and mobile automation frameworks
+- **Checklists**: Comprehensive mobile testing checklists (pre-release, security, performance)
+- **Cross-Platform Testing**: iOS and Android testing strategies
+
 ### Cursor AI Roles
 - **Selenium Role**: Expert guidance for Selenium WebDriver automation
 - **Playwright Role**: Modern web testing with Playwright
 - **Cypress Role**: JavaScript-based E2E testing expertise
+- **Appium Role**: Mobile automation with Appium for iOS and Android
+- **Mobile Testing Role**: Mobile-specific testing strategies and scenarios
+- **Mobile Performance Role**: Mobile app performance testing and optimization
 - **POM Role**: Page Object Model design patterns
 - **BDD Role**: Behavior-Driven Development with Gherkin
 - **Data-Driven Role**: Data-driven testing strategies

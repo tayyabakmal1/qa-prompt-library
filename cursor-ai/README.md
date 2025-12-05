@@ -57,6 +57,29 @@ This folder contains specialized role files for Cursor AI to assist with various
    - CI/CD integration
    - Docker and parallel execution
 
+### Mobile Testing
+
+8. **[appium-role.md](appium-role.md)** - Appium Mobile Automation Expert
+   - Appium 2.x architecture and setup
+   - iOS (XCUITest) and Android (UiAutomator2) automation
+   - Mobile gestures and touch actions
+   - Cross-platform mobile testing
+   - Cloud device farm integration
+
+9. **[mobile-testing-role.md](mobile-testing-role.md)** - Mobile Testing Strategy Expert
+   - Mobile-specific test scenarios (lifecycle, permissions, gestures)
+   - Network connectivity testing
+   - Device coverage strategies
+   - Performance and battery testing
+   - Platform-specific considerations
+
+10. **[mobile-performance-role.md](mobile-performance-role.md)** - Mobile Performance Testing Expert
+   - App launch time measurement (cold/warm/hot start)
+   - Memory leak detection
+   - Battery consumption analysis
+   - Frame rate and UI smoothness testing
+   - Performance optimization strategies
+
 ## How to Use These Roles
 
 ### In Cursor AI
@@ -84,6 +107,8 @@ Choose the appropriate role based on your needs:
 - **Working with Selenium?** → Use `selenium-role.md`
 - **Using Playwright?** → Use `playwright-role.md`
 - **Using Cypress?** → Use `cypress-role.md`
+- **Testing mobile apps?** → Use `appium-role.md` or `mobile-testing-role.md`
+- **Mobile performance testing?** → Use `mobile-performance-role.md`
 - **Implementing page objects?** → Use `pom-role.md`
 - **Writing BDD scenarios?** → Use `bdd-role.md`
 - **Need data-driven tests?** → Use `data-driven-role.md`

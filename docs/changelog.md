@@ -45,6 +45,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] - 2025-12-05
+
+### Added
+- **Mobile Testing Section**: Comprehensive mobile testing resources
+  - Mobile test scenarios prompts (app lifecycle, permissions, gestures, network, notifications)
+  - Mobile automation prompts (Appium scripts, cross-platform testing, gestures)
+  - Mobile testing checklists (pre-release, security, performance, cross-platform)
+- **Cursor AI Mobile Roles**:
+  - Appium role for mobile automation (iOS and Android)
+  - Mobile testing strategy role (device coverage, network testing, platform-specific scenarios)
+  - Mobile performance testing role (launch time, memory, battery, FPS measurement)
+- **Examples**:
+  - Mobile testing example for e-commerce app with complete Page Object Model
+- **Documentation Updates**:
+  - Updated main README with mobile testing section
+  - Updated cursor-ai README with mobile roles
+  - Added mobile testing to library structure
+
+### Changed
+- Enhanced README structure to include mobile testing category
+- Expanded Cursor AI roles section with mobile-specific expertise
+
+---
+
 ## Template for Future Releases
 
 ## [Unreleased]
