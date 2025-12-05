@@ -19,12 +19,20 @@ This library provides ready-to-use prompts for QA professionals to leverage AI t
 - **API Automation**: Prompts for Postman, REST Assured, and Newman
 - **Framework Design**: Architecture and design pattern prompts
 - **CI/CD Integration**: Pipeline and automation workflow prompts
+- **Contract Testing**: Consumer-driven contracts (Pact, Spring Cloud Contract)
+- **Load Testing**: Performance testing with JMeter, Gatling, and K6
+- **Test Reporting**: Extent Reports, Allure, and custom reporting solutions
+- **Parallel Execution**: TestNG parallel, Selenium Grid, cloud execution strategies
 
 ### AI-Assisted QA
 - Test data generation
 - Risk analysis and prediction
 - Exploratory testing guidance
 - Release quality assessment
+- **AI-Powered Test Maintenance**: Self-healing locators and auto-refactoring
+- **Self-Healing Test Scripts**: Visual AI and DOM pattern learning
+- **Intelligent Test Selection**: ML-based risk analysis and predictive failure detection
+- **Defect Prediction Models**: Code quality metrics and bug pattern recognition
 
 ### Mobile Testing
 - **Test Scenarios**: Mobile-specific test scenarios (app lifecycle, permissions, gestures, network)
@@ -33,16 +41,36 @@ This library provides ready-to-use prompts for QA professionals to leverage AI t
 - **Cross-Platform Testing**: iOS and Android testing strategies
 
 ### Cursor AI Roles
+
+**Web Automation:**
 - **Selenium Role**: Expert guidance for Selenium WebDriver automation
 - **Playwright Role**: Modern web testing with Playwright
 - **Cypress Role**: JavaScript-based E2E testing expertise
+
+**Mobile Testing:**
 - **Appium Role**: Mobile automation with Appium for iOS and Android
 - **Mobile Testing Role**: Mobile-specific testing strategies and scenarios
 - **Mobile Performance Role**: Mobile app performance testing and optimization
+
+**Testing Frameworks:**
+- **TestNG Role**: TestNG framework expert for Java testing
+- **JUnit Role**: JUnit 5 specialist for unit and integration testing
+- **pytest Role**: Python testing framework expertise
+
+**API Testing:**
+- **REST Assured Role**: Java-based REST API testing
+- **Karate DSL Role**: BDD-style API testing with Karate
+- **GraphQL Role**: GraphQL API testing specialist
+
+**Design Patterns:**
 - **POM Role**: Page Object Model design patterns
 - **BDD Role**: Behavior-Driven Development with Gherkin
 - **Data-Driven Role**: Data-driven testing strategies
 - **Framework Design Role**: Complete framework architecture guidance
+
+**Infrastructure:**
+- **Docker Testing Role**: Container-based testing with Testcontainers
+- **Kubernetes Testing Role**: Cloud-native application testing
 
 
 ## 🚀 Quick Start

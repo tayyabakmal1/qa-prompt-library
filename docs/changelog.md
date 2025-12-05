@@ -69,6 +69,56 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.2.0] - 2025-12-05
+
+### Added
+- **Automation QA - Contract Testing**:
+  - Pact consumer-driven contract testing prompts (consumer/provider tests, JavaScript, Java, Python examples)
+  - Spring Cloud Contract prompts (Groovy DSL, producer/provider setup, Maven/Gradle config)
+  - Consumer-driven contract principles and workflows (contract evolution, versioning, multi-consumer management)
+
+- **Automation QA - Load Testing**:
+  - JMeter load testing prompts (test plans, CLI execution, CSV parameterization, performance patterns)
+  - Gatling load testing prompts (Scala/Kotlin simulations, load injection strategies, advanced scenarios)
+  - K6 load testing prompts (JavaScript tests, cloud execution, WebSocket/browser testing)
+
+- **Automation QA - Test Reporting**:
+  - Extent Reports prompts (Java/Python/JavaScript integration, step logging, customization)
+  - Allure Reports prompts (annotations, attachments, BDD integration, CLI commands)
+  - Custom reporting prompts (HTML generators, Slack notifications, database storage, real-time dashboards)
+
+- **Automation QA - Parallel Execution**:
+  - TestNG parallel execution prompts (thread-safe design, parallel methods/classes/tests)
+  - Selenium Grid prompts (Docker Compose setup, RemoteWebDriver, hub/node configuration)
+  - Cloud execution prompts (BrowserStack, Sauce Labs, LambdaTest parallel testing)
+
+- **AI-Assisted QA - Advanced Features**:
+  - AI-powered test maintenance (self-healing locators, auto-refactoring, update detection)
+  - Self-healing test scripts (visual AI element detection, DOM structure learning, OCR)
+  - Intelligent test selection (risk-based selection, ML predictive failure analysis, code change impact)
+  - Defect prediction models (ML-based defect probability, bug pattern recognition, quality metrics)
+
+- **Cursor AI Roles - Testing Frameworks**:
+  - TestNG Role: Annotations, data providers, parallel execution, listeners
+  - JUnit Role: JUnit 5 features, parameterized tests, nested tests, extensions
+  - pytest Role: Fixtures, parametrization, markers, plugins, conftest.py
+
+- **Cursor AI Roles - API Testing**:
+  - REST Assured Role: BDD syntax, authentication, POJO serialization, specifications
+  - Karate DSL Role: Gherkin syntax, data-driven tests, parallel execution
+  - GraphQL Testing Role: Queries, mutations, subscriptions, schema validation
+
+- **Cursor AI Roles - Infrastructure**:
+  - Docker Testing Role: Testcontainers, Docker Compose, container testing strategies
+  - Kubernetes Testing Role: Deployment testing, service validation, Helm tests, chaos engineering
+
+### Changed
+- Enhanced README structure with categorized Cursor AI roles (Web, Mobile, Frameworks, API, Design Patterns, Infrastructure)
+- Expanded Automation QA section with 4 new major categories
+- Expanded AI-Assisted QA section with 4 advanced AI/ML features
+
+---
+
 ## Template for Future Releases
 
 ## [Unreleased]
