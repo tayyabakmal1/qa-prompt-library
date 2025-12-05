@@ -26,6 +26,16 @@ This library provides ready-to-use prompts for QA professionals to leverage AI t
 - Exploratory testing guidance
 - Release quality assessment
 
+### Cursor AI Roles
+- **Selenium Role**: Expert guidance for Selenium WebDriver automation
+- **Playwright Role**: Modern web testing with Playwright
+- **Cypress Role**: JavaScript-based E2E testing expertise
+- **POM Role**: Page Object Model design patterns
+- **BDD Role**: Behavior-Driven Development with Gherkin
+- **Data-Driven Role**: Data-driven testing strategies
+- **Framework Design Role**: Complete framework architecture guidance
+
+
 ## 🚀 Quick Start
 
 1. Browse the relevant category for your testing need
