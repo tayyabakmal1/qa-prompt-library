@@ -23,6 +23,10 @@ This library provides ready-to-use prompts for QA professionals to leverage AI t
 - **Load Testing**: Performance testing with JMeter, Gatling, and K6
 - **Test Reporting**: Extent Reports, Allure, and custom reporting solutions
 - **Parallel Execution**: TestNG parallel, Selenium Grid, cloud execution strategies
+- **Database Testing**: SQL, NoSQL, and data migration testing prompts
+- **Security Testing**: OWASP Top 10, penetration testing, and vulnerability assessment
+- **Accessibility Testing**: WCAG compliance, screen reader, and keyboard navigation testing
+- **Cloud Testing**: AWS, Azure, and GCP testing strategies and scenarios
 
 ### AI-Assisted QA
 - Test data generation

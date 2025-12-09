@@ -119,6 +119,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.3.0] - 2025-12-09
+
+### Added
+- **Automation QA - Database Testing**:
+  - SQL testing prompts (schema validation, stored procedures, transactions, SQL injection, performance)
+  - NoSQL testing prompts (MongoDB, Redis, Cassandra, DynamoDB, Elasticsearch, Neo4j)
+  - Data migration testing prompts (ETL, schema mapping, reconciliation, rollback, zero-downtime)
+
+- **Automation QA - Security Testing**:
+  - OWASP Top 10 testing prompts (A01-A10 comprehensive coverage)
+  - Penetration testing prompts (reconnaissance, vulnerability assessment, exploitation, post-exploitation)
+  - Vulnerability assessment prompts (network, web, database, OS, cloud, wireless, IoT, MDM)
+
+- **Automation QA - Accessibility Testing**:
+  - WCAG 2.1 compliance prompts (Level A, AA, AAA success criteria)
+  - Screen reader testing prompts (NVDA, JAWS, VoiceOver, TalkBack, ARIA implementation)
+  - Keyboard navigation testing prompts (focus management, skip links, forms, modals, custom components)
+
+- **Automation QA - Cloud Testing**:
+  - AWS testing prompts (EC2, S3, Lambda, RDS, API Gateway, DynamoDB, ECS/EKS, security, Well-Architected Framework)
+  - Azure testing prompts (VMs, App Service, Functions, SQL Database, Storage, AKS, DevOps, Cosmos DB, security)
+  - GCP testing prompts (Compute Engine, Cloud Storage, Cloud Functions, Cloud SQL, GKE, Pub/Sub, Cloud Run, BigQuery)
+
+### Changed
+- Enhanced README structure with new testing categories
+- Expanded Automation QA section with 4 major new categories (12 new prompt files)
+
+---
+
 ## Template for Future Releases
 
 ## [Unreleased]
