@@ -72,6 +72,11 @@ This library provides ready-to-use prompts for QA professionals to leverage AI t
 - **Data-Driven Role**: Data-driven testing strategies
 - **Framework Design Role**: Complete framework architecture guidance
 
+**Specialized Testing:**
+- **Security Testing Role**: OWASP Top 10 and vulnerability assessment
+- **Performance Testing Role**: Load and stress testing strategies
+- **Accessibility Testing Role**: WCAG compliance and inclusive design
+
 **Infrastructure:**
 - **Docker Testing Role**: Container-based testing with Testcontainers
 - **Kubernetes Testing Role**: Cloud-native application testing
