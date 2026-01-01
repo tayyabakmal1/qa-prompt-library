@@ -26,38 +26,48 @@ We welcome:
 
 ### 3. Prompt Writing Guidelines
 
+**IMPORTANT**: All new prompts must follow our standardized template. See:
+- [Prompt Template](../templates/prompt-template.md) - Standard prompt structure
+- [Role Template](../templates/role-template.md) - For Cursor AI roles
+- [Prompt Writing Guide](prompt-writing-guide.md) - Comprehensive guide
+- [Tagging System](tagging-system.md) - Tag reference
+
 #### Structure
-- Use clear, descriptive headings
+- Use the standardized prompt template from `/templates/`
+- Include complete metadata (difficulty, tags, version, date)
 - Number your prompts for easy reference
 - Include placeholders in [BRACKETS]
 - Provide context and examples
+- Add related prompts section
 
 #### Content
 - **Be Specific**: Avoid vague instructions
 - **Be Practical**: Focus on real-world scenarios
 - **Be Complete**: Include all necessary context
 - **Be Clear**: Use simple, unambiguous language
+- **Include Examples**: At least one filled example
+- **Add Tags**: Use appropriate tags from the tagging system
 
-#### Format
-```
-## [NUMBER]. [PROMPT_TITLE]
-
-\`\`\`
-[PROMPT_CONTENT_WITH_PLACEHOLDERS]
-
-Include:
-- [ITEM_1]
-- [ITEM_2]
-- [ITEM_3]
-\`\`\`
-```
+#### Required Sections
+Every prompt must include:
+- Metadata (difficulty, time, prerequisites, tags, version)
+- Clear objective statement
+- Structured prompt template
+- Customization guide for placeholders
+- Example usage
+- Expected output description
+- Related prompts
+- Additional resources
 
 ### 4. File Organization
 
 - Place prompts in appropriate category folders
 - Use kebab-case for file names: `my-new-prompts.md`
+- Include difficulty suffix for variants: `selenium-beginner.md`, `selenium-advanced.md`
 - Follow existing file structure
-- Update README if adding new categories
+- Update category README.md when adding prompts
+- Update PROMPT_INDEX.md with new prompt entries
+- Add to main README if creating new categories
 
 ### 5. Quality Standards
 
@@ -85,10 +95,14 @@ Make some test cases for login
 ### 6. Testing Your Prompts
 
 Before submitting:
-1. Test with at least one AI tool (ChatGPT, Claude, Gemini, etc.)
-2. Verify the output is useful and accurate
-3. Ensure placeholders are clear
-4. Check for typos and formatting
+1. **Use the template**: Copy from `/templates/prompt-template.md`
+2. **Fill all sections**: Complete all required metadata and sections
+3. **Test with AI tools**: Test with at least one AI tool (ChatGPT, Claude, Gemini, etc.)
+4. **Verify output quality**: Ensure the output is useful and accurate
+5. **Check placeholders**: Ensure placeholders are clear and well-explained
+6. **Validate tags**: Use tags from the tagging system guide
+7. **Review formatting**: Check for typos and markdown formatting
+8. **Add to index**: Update PROMPT_INDEX.md with your new prompt
 
 ### 7. Documentation
 
