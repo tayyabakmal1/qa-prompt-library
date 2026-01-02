@@ -36,17 +36,17 @@ Prompts for manual testing activities.
 - **[Bug Reporting](manual-qa/bug-reporting/)**: Templates for defect descriptions, reproduction steps, and root cause analysis
 - **[Test Planning](manual-qa/test-planning/)**: Strategic prompts for test plans, strategies, and risk analysis
 - **[Checklists](manual-qa/checklist-prompts/)**: Comprehensive testing checklists for UI, API, and mobile applications
-- **[Exploratory Testing](manual-qa/exploratory-testing/)**: Session-based testing and bug hunting
-- **[Usability Testing](manual-qa/usability-testing/)** (NEW): UX evaluation and user testing
+- **[Exploratory Testing](manual-qa/exploratory-testing/exploratory-testing-prompts.md)**: AI-guided exploratory testing strategies
+- **[Usability Testing](manual-qa/usability-testing/usability-testing-prompts.md)**: UX evaluation and user testing
 
 ### [Automation QA](automation-qa/)
 Comprehensive automation prompts for all testing needs.
 
 **Web Automation**:
-- **Selenium, Playwright, Cypress** - Modern web automation frameworks
+- **[Selenium](automation-qa/web-automation/selenium/)**, **[Playwright](automation-qa/web-automation/playwright/)**, **[Cypress](automation-qa/web-automation/cypress/)** - Modern web automation frameworks
 
 **API Testing**:
-- **Postman, REST Assured, Karate DSL** - API automation and validation
+- **[Beginner Guide](automation-qa/api-automation/api-testing-beginner.md)**, **[Advanced Patterns](automation-qa/api-automation/api-testing-advanced.md)** - API automation and validation
 
 **Specialized Testing**:
 - **[Contract Testing](automation-qa/contract-testing/)**: Pact, Spring Cloud Contract
@@ -65,13 +65,13 @@ Comprehensive automation prompts for all testing needs.
 ### [AI-Assisted QA](ai-assisted-qa/)
 Leverage AI and ML for enhanced testing.
 
-- **Test Data Generation**: Realistic, diverse test data using AI
-- **Risk Analysis**: AI-powered risk assessment and prediction
-- **Exploratory Testing**: AI-guided exploratory testing strategies
-- **Release Quality Assessment**: Assess release readiness
-- **AI-Powered Test Maintenance**: Self-healing locators and auto-refactoring
-- **Intelligent Test Selection**: ML-based risk analysis and predictive failure detection
-- **Defect Prediction Models**: Code quality metrics and bug pattern recognition
+- **[Test Data Generation](ai-assisted-qa/test-data-generation-prompts.md)**: Realistic, diverse test data using AI
+- **[Risk Analysis](ai-assisted-qa/risk-analysis-prompts.md)**: AI-powered risk assessment and prediction
+- **[Exploratory Testing](ai-assisted-qa/exploratory-testing-prompts.md)**: AI-guided exploratory testing strategies
+- **[Release Quality Assessment](ai-assisted-qa/release-quality-prompts.md)**: Assess release readiness
+- **[AI-Powered Test Maintenance](ai-assisted-qa/test-maintenance-prompts.md)**: Self-healing locators and auto-refactoring
+- **[Intelligent Test Selection](ai-assisted-qa/intelligent-test-selection.md)**: ML-based risk analysis and predictive failure detection
+- **[Defect Prediction Models](ai-assisted-qa/defect-prediction.md)**: Code quality metrics and bug pattern recognition
 
 ### [Mobile Testing](mobile-testing/)
 Mobile-specific testing prompts.
@@ -81,24 +81,24 @@ Mobile-specific testing prompts.
 - **Checklists**: Pre-release, security, performance checklists
 - **Cross-Platform**: iOS and Android testing strategies
 
-### [Specialized Testing](specialized-testing/) (NEW)
+### [Specialized Testing](specialized-testing/)
 Testing for emerging and specialized domains.
 
-- **[Blockchain Testing](specialized-testing/blockchain-testing/)**: Web3, smart contracts, DeFi testing
-- **[IoT Testing](specialized-testing/iot-testing/)**: Device connectivity, sensor validation
-- **[ML Model Testing](specialized-testing/ml-model-testing/)**: Model accuracy, bias detection
-- **[Game Testing](specialized-testing/game-testing/)**: Gameplay, performance, multiplayer
+- **[Blockchain Testing](specialized-testing/blockchain-testing/web3-testing-prompts.md)**: Web3, smart contracts, DeFi testing
+- **IoT Testing**: Device connectivity, sensor validation (Coming Soon)
+- **ML Model Testing**: Model accuracy, bias detection (Coming Soon)
+- **Game Testing**: Gameplay, performance, multiplayer (Coming Soon)
 
 ### [Cursor AI Roles](cursor-ai/)
 Expert AI roles for framework-specific guidance in your IDE.
 
-**Web Automation**: Selenium, Playwright, Cypress
-**Mobile Testing**: Appium, Mobile Testing, Mobile Performance
-**Testing Frameworks**: TestNG, JUnit, pytest
-**API Testing**: REST Assured, Karate DSL, GraphQL
-**Design Patterns**: POM, BDD, Data-Driven, Framework Design
-**Specialized**: Security, Performance, Accessibility
-**Infrastructure**: Docker, Kubernetes
+- **Web Frameworks**: [Selenium](cursor-ai/web-frameworks/selenium-role.md), [Playwright](cursor-ai/web-frameworks/playwright-role.md), [Cypress](cursor-ai/web-frameworks/cypress-role.md)
+- **Mobile Frameworks**: [Appium](cursor-ai/mobile-frameworks/appium-role.md), [Mobile Testing](cursor-ai/mobile-frameworks/mobile-testing-role.md), [Mobile Performance](cursor-ai/mobile-frameworks/mobile-performance-role.md)
+- **Testing Frameworks**: [TestNG](cursor-ai/testing-frameworks/testng-role.md), [JUnit](cursor-ai/testing-frameworks/junit-role.md), [pytest](cursor-ai/testing-frameworks/pytest-role.md)
+- **API Frameworks**: [REST Assured](cursor-ai/api-frameworks/rest-assured-role.md), [Karate DSL](cursor-ai/api-frameworks/karate-dsl-role.md), [GraphQL](cursor-ai/api-frameworks/graphql-testing-role.md)
+- **Design Patterns**: [POM](cursor-ai/design-patterns/pom-role.md), [BDD](cursor-ai/design-patterns/bdd-role.md), [Data-Driven](cursor-ai/design-patterns/data-driven-role.md), [Framework Design](cursor-ai/design-patterns/framework-design-role.md)
+- **Specialized**: [Security](cursor-ai/specialized/security-testing-role.md), [Performance](cursor-ai/specialized/performance-testing-role.md), [Accessibility](cursor-ai/specialized/accessibility-testing-role.md)
+- **Infrastructure**: [Docker](cursor-ai/infrastructure/docker-testing-role.md), [Kubernetes](cursor-ai/infrastructure/kubernetes-testing-role.md)
 
 ### [Templates](templates/)
 Standardized templates for creating new prompts.
@@ -115,34 +115,34 @@ Comprehensive guides and references.
 - **[Contribution Guidelines](docs/contribution-guidelines.md)**: How to contribute
 - **[Changelog](docs/changelog.md)**: Version history
 - **[Glossary](docs/glossary.md)**: Testing terminology
+- **[Best Practices](docs/best-practices.md)**: QA testing best practices
 
-### [Workflows](workflows/) (NEW)
+### [Workflows](workflows/)
 Practical workflow guides for real-world testing scenarios.
 
 - **[Daily Testing Workflow](workflows/daily-testing-workflow.md)**: Day-to-day testing activities
 - **[Sprint Testing Workflow](workflows/sprint-testing-workflow.md)**: 2-week sprint cycle guide
 - **[Release Testing Workflow](workflows/release-testing-workflow.md)**: Production release process
 
-### AI Tool Integration Guides (NEW)
+### AI Tool Integration Guides
 Learn how to use this library with popular AI tools.
 
 - **[Using with ChatGPT](docs/using-with-chatgpt.md)**: Complete ChatGPT integration guide
 - **[Using with Cursor AI](docs/using-with-cursor.md)**: Cursor AI roles and usage
 - **[Using with GitHub Copilot](docs/using-with-copilot.md)**: Copilot integration patterns
-- **[Best Practices](docs/best-practices.md)**: QA testing best practices
 
 
 ## 🚀 Quick Start Examples
 
 ### Example 1: Generate Selenium Test Code
-1. Open [Selenium Role](cursor-ai/selenium-role.md) in Cursor AI
+1. Open [Selenium Role](cursor-ai/web-frameworks/selenium-role.md) in Cursor AI
 2. Describe your test scenario
 3. Get production-ready Selenium code with best practices
 
 ### Example 2: Create API Test Cases
-1. Browse [Postman Prompts](automation-qa/api-automation/postman-prompts.md)
+1. Browse [API Testing Beginner](automation-qa/api-automation/api-testing-beginner.md)
 2. Fill in your API details
-3. Generate comprehensive Postman collections
+3. Generate comprehensive test cases and collections
 
 ### Example 3: Plan Sprint Testing
 1. Use [Test Planning Prompts](manual-qa/test-planning/)
@@ -157,7 +157,7 @@ Learn how to use this library with popular AI tools.
    - Search by tags using the [Tagging System](docs/tagging-system.md)
 
 2. **Customize the Prompt**
-   - Copy the prompt template
+   - Copy the prompt template from [Templates](templates/prompt-template.md)
    - Replace [PLACEHOLDERS] with your specific details
    - Add any additional context needed
 
@@ -174,8 +174,8 @@ Learn how to use this library with popular AI tools.
 ## 💡 Featured Prompts
 
 - 🌟 [Functional Test Cases](manual-qa/test-case-creation/functional-prompts.md) - Most popular
-- 🚀 [Selenium Expert Role](cursor-ai/selenium-role.md) - Highly rated
-- 🔥 [Postman API Testing](automation-qa/api-automation/postman-prompts.md) - Frequently used
+- 🚀 [Selenium Expert Role](cursor-ai/web-frameworks/selenium-role.md) - Highly rated
+- 🔥 [API Testing Advanced](automation-qa/api-automation/api-testing-advanced.md) - Frequently used
 - ⚡ [AI Test Data Generation](ai-assisted-qa/test-data-generation-prompts.md) - Trending
 
 ## 📚 Resources
