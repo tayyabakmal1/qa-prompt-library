@@ -5,6 +5,28 @@ All notable changes to the QA Prompt Library will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] - 2026-01-03
+
+### Added
+- **Specialized Testing - Blockchain**:
+  - Web3 and Smart Contract testing prompts
+- **New Documentation**:
+  - `docs/best-practices.md`: Comprehensive QA testing best practices
+  - `docs/using-with-copilot.md`: Integration guide for GitHub Copilot
+- **Improved Repository Structure**:
+  - Organized Cursor AI roles into specific subdirectories (API, Design Patterns, Infrastructure, Mobile, Specialized, Testing, Web)
+  - Consolidated Web Automation folders under `automation-qa/web-automation/`
+
+### Changed
+- **Prompt Standardization**: Updated templates and roles to follow a more consistent and premium format.
+- **Enhanced Navigation**: Significant updates to `README.md`, `PROMPT_INDEX.md`, and `QUICK_START.md` for better discoverability.
+
+### Fixed
+- **Broken Links**: Major fix resolving 146 broken internal links across the entire repository.
+- **Path Consistency**: Corrected relative paths in documentation and role files to match the new hierarchical structure.
+
+---
+
 ## [1.0.0] - 2025-12-05
 
 ### Added
