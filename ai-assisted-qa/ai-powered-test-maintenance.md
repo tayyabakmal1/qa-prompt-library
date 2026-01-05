@@ -63,6 +63,71 @@ Process:
 Include confidence metrics and manual review option
 ```
 
+## 4. Flaky Test Analysis & Resolution
+
+```
+Analyze test execution history to identify and resolve flakiness:
+
+Input: [Test Reports/CI Logs/Video Recordings]
+Analysis Depth: [Pattern Recognition/Timing Analysis]
+
+Tasks:
+- Identify intermittently failing tests
+- Correlate failures with environment stats (CPU, memory, network)
+- Detect race conditions
+- Analyze wait usage vs actual load times
+- Suggest stability improvements
+
+Outputs:
+- Stability Score per test
+- Root cause hypotheses
+- Suggested wait adjustments
+- Environment configuration recommendations
+```
+
+## 5. Dead Code & Unused Asset Cleanup
+
+```
+Identify and remove obsolete test assets:
+
+Scope: [Page Objects/Test Data/Helper Functions]
+Safety Level: [Conservative/Aggressive]
+
+Scan for:
+- Unused page element definitions
+- Deprecated utility methods
+- Obsolete test data files
+- Commented-out code blocks
+- Redundant helper classes
+
+Actions:
+- Generate clean-up report
+- Mark methods as @Deprecated
+- Safe delete recommendations
+- Dependency usage analysis
+```
+
+## 6. Semantic Error Classification
+
+```
+Group test failures by semantic meaning using NLP:
+
+Input: [Failure Logs/Stack Traces]
+Grouping Strategy: [Root Cause/Error Type/Component]
+
+Capabilities:
+- Cluster similar errors despite differing stack traces
+- Extract meaningful error messages from verbose logs
+- Link errors to known defects (Jira/Bugzilla)
+- Predict impact area
+- Suggest common fixes based on historical data
+
+Output:
+- Error clusters with impact assessment
+- Suggested priority for fixing
+- Trend analysis of error types
+```
+
 ## Example: Self-Healing Locator Implementation
 
 ```python
